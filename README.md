@@ -1,5 +1,3 @@
-# Welcome to GitHub Desktop!
+In the above code, a Support Vector Machine (SVM) classifier is trained to classify audio files based on their features extracted using librosa library. The code reads audio files in WAV format from the current directory, extracts the 20 Mel-frequency cepstral coefficients (MFCCs) as features, and stores them along with the file name in a CSV file. The CSV file is then merged with the ESC-50 dataset from the Kaggle website, and the unnecessary columns are removed. The SVM classifier is then built using GridSearchCV to find the best parameters. Finally, the accuracy, precision, recall, and F1 score are calculated, and the confusion matrix is plotted as a heatmap.
 
-This is your README. READMEs are where you can communicate what your project is and how to use it.
-
-Write your name on line 6, save it, and then head back to GitHub Desktop.
+The dataset used in this project is the "Environmental Sound Classification 50" dataset, which can be found at the following link: https://www.kaggle.com/datasets/mmoreaux/environmental-sound-classification-50.
